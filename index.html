@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Go-on株式会社は、ITコンサルティングとファイナンシャルデザインを通じて、企業と個人の持続的な成長を後押しします。" />
+  <meta property="og:title" content="Go-on株式会社" />
+  <meta property="og:description" content="ビジネスを、その先へ。ITコンサルティングとファイナンシャルデザインで成長を支援します。" />
+  <meta property="og:type" content="website" />
+  <title>Go-on株式会社</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav id="navbar" class="navbar" role="navigation" aria-label="メインナビゲーション">
+    <div class="container nav-inner">
+      <a href="#top" class="nav-logo" aria-label="Go-on株式会社 トップへ">
+        <span class="nav-logo-icon" aria-hidden="true">
+          <!-- Trending Up SVG -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+        </span>
+        <span class="nav-logo-text">Go-on <em>Inc.</em></span>
+      </a>
+
+      <!-- Desktop Menu -->
+      <ul class="nav-links" role="list">
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#company" class="nav-link">Company</a></li>
+      </ul>
+
+      <!-- Mobile Toggle -->
+      <button class="nav-toggle" id="navToggle" aria-label="メニューを開く" aria-expanded="false" aria-controls="mobileMenu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true" role="dialog" aria-label="モバイルメニュー">
+    <ul class="mobile-menu-links" role="list">
+      <li><a href="#services" class="mobile-link">Services</a></li>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#company" class="mobile-link">Company</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <!-- ========== HERO ========== -->
+    <section id="top" class="hero" aria-labelledby="hero-heading">
+      <div class="hero-bg-gradient" aria-hidden="true"></div>
+      <div class="hero-blob" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-content reveal">
+          <p class="hero-eyebrow">Digital &amp; Financial Strategy</p>
+          <h1 id="hero-heading" class="hero-heading">
+            ビジネスを、<br />
+            <span class="text-accent">その先へ。</span>
+          </h1>
+          <p class="hero-body">
+            Go-on株式会社は、ITコンサルティングとファイナンシャルデザインを通じて、
+            企業と個人の持続的な成長を後押しします。デジタルとリアルの境界を超え、
+            新たな価値を共創するパートナーです。
+          </p>
+          <div class="hero-actions">
+            <a href="#services" class="btn btn-primary">
+              事業内容を見る
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+            </a>
+            <a href="#about" class="btn btn-secondary">私たちについて</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SERVICES ========== -->
+    <section id="services" class="section section-white" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 id="services-heading" class="section-title">Our Services</h2>
+          <div class="section-divider" aria-hidden="true"></div>
+          <p class="section-body">
+            多角的な視点から、お客様のビジネス課題を解決する包括的なソリューションを提供いたします。
+          </p>
+        </div>
+
+        <div class="services-grid reveal-stagger">
+
+          <!-- Card 1 -->
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <h3 class="service-title">IT &amp; SNS コンサルティング</h3>
+            <p class="service-desc">インターネット及びソーシャルメディアを活用した戦略的なコンサルティングを提供し、ビジネスの認知拡大を支援します。</p>
+            <ul class="service-tags" aria-label="サービス詳細">
+              <li class="tag">戦略立案</li>
+              <li class="tag">運用最適化</li>
+              <li class="tag">データ分析</li>
+            </ul>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+            </div>
+            <h3 class="service-title">コンテンツ企画・制作</h3>
+            <p class="service-desc">デジタルメディアにおける高品質なコンテンツの企画から制作、運営までをトータルにプロデュースします。</p>
+            <ul class="service-tags" aria-label="サービス詳細">
+              <li class="tag">動画制作</li>
+              <li class="tag">記事作成</li>
+              <li class="tag">メディア運営</li>
+            </ul>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+            </div>
+            <h3 class="service-title">ファイナンシャルデザイン</h3>
+            <p class="service-desc">専門的なファイナンシャルプランニング業務を通じて、個人・法人の資産形成と将来設計をサポートします。</p>
+            <ul class="service-tags" aria-label="サービス詳細">
+              <li class="tag">FP業務</li>
+              <li class="tag">金融商品投資</li>
+              <li class="tag">資産運用相談</li>
+            </ul>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+            </div>
+            <h3 class="service-title">決済・提携支援</h3>
+            <p class="service-desc">クレジットカード発行の斡旋や提携業務を行い、スムーズな決済環境の構築とビジネスチャンスを創出します。</p>
+            <ul class="service-tags" aria-label="サービス詳細">
+              <li class="tag">カード発行斡旋</li>
+              <li class="tag">提携業務</li>
+              <li class="tag">キャッシュレス支援</li>
+            </ul>
+          </article>
+
+          <!-- Card 5 -->
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            </div>
+            <h3 class="service-title">イベント・セミナー</h3>
+            <p class="service-desc">知見を共有する各種セミナーや、人と人を繋ぐイベントの企画・制作・運営をプロフェッショナルに行います。</p>
+            <ul class="service-tags" aria-label="サービス詳細">
+              <li class="tag">セミナー企画</li>
+              <li class="tag">イベント運営</li>
+              <li class="tag">集客支援</li>
+            </ul>
+          </article>
+
+          <!-- Card 6 -->
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3 class="service-title">ヒューマンリソース</h3>
+            <p class="service-desc">労働者派遣及び職業紹介事業を通じて、企業の成長に不可欠な最適な人材とのマッチングを実現します。</p>
+            <ul class="service-tags" aria-label="サービス詳細">
+              <li class="tag">人材派遣</li>
+              <li class="tag">職業紹介</li>
+              <li class="tag">キャリア支援</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section id="about" class="section" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about-card reveal">
+          <!-- Left: Text -->
+          <div class="about-text">
+            <h2 id="about-heading" class="about-heading">「進み続ける」を、<br />共につくる。</h2>
+            <div class="about-body">
+              <p>私たちの社名「Go-on」には、困難な状況下でも歩みを止めず、常に前進し続ける（Go on）という強い意志が込められています。</p>
+              <p>めまぐるしく変化するデジタル社会において、最新のテクノロジーを正しく活用し、かつ堅実な金融リテラシーを兼ね備えることは、現代を生き抜くための両輪です。</p>
+              <p>私たちはその両面からお客様をサポートし、一つひとつの事業が持つ可能性を最大限に引き出します。</p>
+            </div>
+          </div>
+          <!-- Right: Values Grid -->
+          <div class="about-values" aria-label="企業バリュー">
+            <div class="value-blob value-blob-top" aria-hidden="true"></div>
+            <div class="value-blob value-blob-bottom" aria-hidden="true"></div>
+            <div class="values-grid">
+              <div class="value-item">
+                <div class="value-word">Expertise</div>
+                <p class="value-desc">専門性に基づいた確かな提案力</p>
+              </div>
+              <div class="value-item">
+                <div class="value-word">Integrity</div>
+                <p class="value-desc">誠実なコミュニケーション</p>
+              </div>
+              <div class="value-item">
+                <div class="value-word">Agility</div>
+                <p class="value-desc">変化に対応する俊敏な行動</p>
+              </div>
+              <div class="value-item">
+                <div class="value-word">Vision</div>
+                <p class="value-desc">未来を見据えた戦略設計</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== COMPANY PROFILE ========== -->
+    <section id="company" class="section section-white" aria-labelledby="company-heading">
+      <div class="container">
+        <div class="profile-wrapper">
+          <div class="section-header reveal">
+            <h2 id="company-heading" class="section-title italic">Corporate Profile</h2>
+            <p class="section-subtitle">会社概要</p>
+          </div>
+
+          <div class="profile-card reveal">
+            <dl class="profile-list">
+
+              <div class="profile-row">
+                <dt class="profile-label">
+                  <span class="profile-icon" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                  </span>
+                  法人名
+                </dt>
+                <dd class="profile-value profile-value--bold">Go-on株式会社</dd>
+              </div>
+
+              <div class="profile-row">
+                <dt class="profile-label">
+                  <span class="profile-icon" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                  </span>
+                  代表者名
+                </dt>
+                <dd class="profile-value">浅尾 剛</dd>
+              </div>
+
+              <div class="profile-row">
+                <dt class="profile-label">
+                  <span class="profile-icon" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  </span>
+                  所在地
+                </dt>
+                <dd class="profile-value">東京都大田区大森西1-11-24</dd>
+              </div>
+
+              <div class="profile-row profile-row--top">
+                <dt class="profile-label">
+                  <span class="profile-icon" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                  </span>
+                  事業内容
+                </dt>
+                <dd class="profile-value">
+                  <ul class="business-list" aria-label="事業内容一覧">
+                    <li>IT及びSNSに関するコンサルティング業務</li>
+                    <li>デジタルコンテンツの企画、制作、運営</li>
+                    <li>ファイナンシャルプランニング業務</li>
+                    <li>各種金融商品への投資</li>
+                    <li>クレジットカード発行の斡旋及び提携業務</li>
+                    <li>イベント及びセミナーの企画、制作、運営</li>
+                    <li>各種コンサルティング業務</li>
+                    <li>労働者派遣及び職業紹介事業</li>
+                  </ul>
+                </dd>
+              </div>
+
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== QUOTE BANNER ========== -->
+    <section class="quote-section" aria-label="企業メッセージ">
+      <div class="quote-inner reveal">
+        <div class="quote-icon" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <blockquote class="quote-text">
+          "We empower your vision with digital strategy and financial wisdom."
+        </blockquote>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-top">
+        <a href="#top" class="footer-logo" aria-label="Go-on株式会社 トップへ">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+          <span>Go-on Inc.</span>
+        </a>
+        <nav aria-label="フッターナビゲーション">
+          <ul class="footer-nav" role="list">
+            <li><a href="#top" class="footer-link">Top</a></li>
+            <li><a href="#services" class="footer-link">Services</a></li>
+            <li><a href="#about" class="footer-link">About</a></li>
+            <li><a href="#company" class="footer-link">Company</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; <span id="year"></span> Go-on Co., Ltd. All rights reserved.</p>
+        <ul class="footer-legal" role="list">
+          <li>プライバシーポリシー</li>
+          <li>コンプライアンス方針</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
